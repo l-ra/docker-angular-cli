@@ -24,7 +24,7 @@ Let's say you would compile it through
 
 Then you would to run:
 
-    docker run --rm -it -v /PATH/TO/APP:/usr/src/app -p 4200:4200 binfalse/angular-cli ng build --prod --bh / -d /
+    docker run --rm -it -v /PATH/TO/APP:/usr/src/app binfalse/angular-cli ng build --prod --bh / -d /
 
 This will compile a release into the `dist/` of `/PATH/TO/APP`, so you may just run an nginx to serve the files:
 
