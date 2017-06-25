@@ -2,7 +2,7 @@ FROM node:latest
 MAINTAINER martin scharm <https://binfalse.de>
 
 # install some common dependencies
-RUN npm install --loglevel=warn -g @angular/cli findup-sync typescript
+RUN npm install --silent -g @angular/cli findup-sync typescript
 
 
 WORKDIR /usr/src/app
