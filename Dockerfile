@@ -2,7 +2,7 @@ FROM node:latest
 MAINTAINER martin scharm <https://binfalse.de>
 
 # install some common dependencies
-RUN npm install --silent -g @angular/cli findup-sync typescript >> /dev/null 2>>/dev/null
+RUN npm install --silent -g @angular/cli findup-sync typescript >>/dev/null 2>>/dev/null
 
 
 WORKDIR /usr/src/app
