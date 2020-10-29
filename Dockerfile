@@ -1,5 +1,6 @@
 FROM node:12
-MAINTAINER martin scharm <https://binfalse.de>
+# Original maintainer
+# MAINTAINER martin scharm <https://binfalse.de>
 
 # install some common dependencies
 RUN npm install --unsafe-perm -g @angular/cli findup-sync typescript 
