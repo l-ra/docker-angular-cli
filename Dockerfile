@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:12
 MAINTAINER martin scharm <https://binfalse.de>
 
 # install some common dependencies
